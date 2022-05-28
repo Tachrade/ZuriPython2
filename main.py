@@ -13,17 +13,17 @@ class Student:
 
 #Change students name, should accept a new name as an argument.
     def change_name(self, new_name):
-     self.name = new_name
-     print("The Stundent New Name is:",new_name)
+     self.new_name = new_name
+     print("The Stundent New Name is:",new_name,self.name)
      
 #Change students' age, should accept a new age as an argument. Should ensure age remains an integer.
     def change_age(self, new_age):
-     self.age = int(new_age)
+     self.new_age = int(new_age)
      print("The Stundent New Age is:", new_age)
 
 #Add a new item to students tracks, should accept a new track as an argument
     def add_tracks(self, new_tracks):
-      self.tracks = new_tracks
+      self.new_tracks = new_tracks
       print("The Stundent New Tracks is:",new_tracks )
 
 #get_score: Return student’s score
